@@ -1,0 +1,32 @@
+:root {
+    --wip : red 1px dotted;
+}
+
+.container{
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.dflex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.type-title{
+    width: calc(100%/18);
+    height: 40vh;
+    border: var(--wip);
+    box-sizing: border-box;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-relat{
+    width: calc(100%/18);
+    height: 10vh;
+    border: var(--wip);
+    box-sizing: border-box;
+}
